@@ -1,0 +1,151 @@
+*{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+#logo{
+    min-width: 130pt;
+    max-width: 130pt;
+    height: auto;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    border-bottom: 15px solid #EFADDA;
+}
+ul{
+    align-self: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    background-color: #FFE96E;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 25pt;
+    margin: 5pt;
+    margin-bottom: 0pt;
+}
+
+li a:visited{
+    color: black
+}
+
+li a:link{
+    color: black
+}
+
+li a:hover{
+    background-color: #33B8BD;
+    color: #A6297E;
+}
+
+#paola_photo{
+    min-width: 300px;
+    max-width: 300px;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(100%);
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pink-text{
+    color: #DE64B7;
+}
+
+#about-text{
+    display: block;
+    max-width: 300pt;
+    
+}
+.project-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20pt;
+    min-width: 300pt;
+    max-width: 300pt;
+    
+
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.single-project-container{
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 50pt;
+    padding-top: 50pt;
+}
+
+.shop-logo{
+    min-width: 100pt;
+    max-width: 20%;
+}
+
+.bottom{
+    display: block;
+    background-color: #FFE96E;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 25pt;
+    margin: 5pt;
+    margin-bottom: 0pt;
+}
+
+.bottom:visited{
+    color: black
+}
+
+.bottom:link{
+    color: black
+}
+
+.bottom:hover{
+    background-color: #33B8BD;
+    color: #A6297E;
+}
+#my-story{
+    display: block;
+    max-width: 500pt;
+    align-items: center;
+}
+
+.main-about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#huge-emoji{
+    font-size: 200px;
+}
+
+#huge-pen{
+    font-size: 120px;
+    width: 300px;
+    text-align: center;
+}
